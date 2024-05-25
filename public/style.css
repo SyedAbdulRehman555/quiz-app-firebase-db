@@ -1,0 +1,168 @@
+.main {
+  width: 60%;
+  margin: auto;
+}
+
+.main p {
+  font-size: 24px;
+}
+
+body {
+  background: url("./images/download4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main h4 {
+  background-color: lightblue;
+  height: 74px;
+  margin: 15px;
+  font-size: 1.5rem;
+  align-items: center;
+  display: flex;
+  box-shadow: 2px 2px 2px 2px rgb(80, 144, 165);
+  padding: 5px;
+}
+
+.main .opt1_class {
+  background-color: aquamarine;
+  margin: 15px;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 2px 2px rgb(101, 182, 155);
+  font-weight: bold;
+  height: 74px;
+  padding: 5px;
+}
+
+.main .opt2_class {
+  background-color: lightsalmon;
+  margin: 15px;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 2px 2px rgb(223, 116, 74);
+  font-weight: bold;
+  height: 74px;
+  padding: 5px;
+}
+.main .opt3_class {
+  background-color: lightgreen;
+  margin: 15px;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 2px 2px rgb(44, 104, 84);
+  font-weight: bold;
+  height: 74px;
+  padding: 5px;
+}
+.qlogo {
+  margin: auto;
+  width: 10%;
+  text-align: center;
+}
+.qlogo img {
+  width: 100%;
+}
+.active {
+  background-color: red;
+  transform: scale(1.2);
+}
+
+.btn1_class {
+  width: 150px;
+  height: 50px;
+  background-color: aquamarine;
+  margin-left: 14px;
+  color: white;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 2px 2px rgb(19, 119, 19);
+}
+
+.btn2_class {
+  width: 150px;
+  height: 50px;
+  background-color: lightsalmon;
+  margin-left: 14px;
+  color: white;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 2px 2px rgb(19, 119, 19);
+}
+.btn3_class {
+  width: 150px;
+  height: 50px;
+  background-color: lightgreen;
+  margin-left: 14px;
+  color: white;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 2px 2px rgb(19, 119, 19);
+}
+
+.next_class {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(92, 113, 207);
+  margin-left: 14px;
+  color: white;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 2px 2px rgb(19, 119, 19);
+}
+
+/* .fin_test {
+  font-size: 30px;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(79, 79, 228);
+  color: white;
+  box-shadow: 2px 8px 14px rgb(49, 49, 116);
+} */
+.fin_test {
+  font-size: 30px;
+  width: 80%;
+  height: 100px;
+  background-color: rgb(84, 228, 79);
+  color: white;
+  box-shadow: 2px 18px 20px rgb(25, 82, 25);
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 60px;
+  background: linear-gradient(90deg, #000 50%, #0000 0) right/200% 100%;
+  animation: l21 2s infinite linear;
+  display: flex;
+  position: absolute;
+  top: 30vh;
+  left: 30vw;
+}
+.loader::before {
+  content: "Loading...";
+  color: #0000;
+  padding: 0 5px;
+  background: inherit;
+  background-image: linear-gradient(90deg, #fff 50%, #000 0);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@keyframes l21 {
+  100% {
+    background-position: left;
+  }
+}
+
+#timer {
+  font-size: 30px;
+  color: white;
+}
+
+.timer_cl {
+  display: flex;
+  justify-content: right;
+  margin-right: 14px;
+  font-size: 30px;
+  color: white;
+}
